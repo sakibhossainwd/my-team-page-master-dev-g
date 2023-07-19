@@ -18,7 +18,7 @@ body{
     font-size: 5vh;
 }
 .introduction p{
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-top: -50px;
 }
 .pic-pos{
@@ -28,7 +28,24 @@ body{
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
-
+.team-container{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+    width: 80%;
+}
+.margin-top{
+    margin-top: 30%;
+}
+h3{
+    font-size: 1vw;
+    font-weight: 300;
+}
+h2{
+    font-size: 2vw;
+}
 @media only screen and (max-width: 1400px){
     .header h1{
         font-size: 4vh;
@@ -52,10 +69,10 @@ body{
 }
 @media only screen and (max-width: 992px){
     .header h1{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     .introduction h4{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     .introduction p{
         font-size: 2vw;
@@ -64,10 +81,10 @@ body{
 }
 @media only screen and (max-width: 768px){
     .header h1{
-        font-size: 2.5vh;
+        font-size: 2vh;
     }
     .introduction h4{
-        font-size: 2.5vh;
+        font-size: 2vh;
     }
 }
 @media only screen and (max-width: 576px){
@@ -86,5 +103,21 @@ body{
     .introduction p{
         font-size: 3vw;
         margin-top: -20px;
+    }
+
+    /* main part */
+    .team-container{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .member-4{
+        margin-top: 50px;
+    }
+    .member-5{
+        margin-top: 0;
+    }
+    .member-6{
+        margin-top: 50px;
     }
 }
