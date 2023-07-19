@@ -3,7 +3,7 @@ body{
     margin: auto;
 }
 .header-container{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -21,19 +21,70 @@ body{
     font-size: 2vw;
     margin-top: -50px;
 }
+.pic-pos{
+    display: flex;
+}
+.possition{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
 
 @media only screen and (max-width: 1400px){
-    
+    .header h1{
+        font-size: 4vh;
+        margin-top: 15%;
+    }
+    .introduction h4{
+        font-size: 4vh;
+    }
 }
 @media only screen and (max-width: 1200px){
-
+    .header h1{
+        font-size: 3vh;
+    }
+    .introduction h4{
+        font-size: 3vh;
+    }
+    .introduction p{
+        font-size: 2vw;
+        margin-top: -30px;
+    }
 }
 @media only screen and (max-width: 992px){
-
+    .header h1{
+        font-size: 3vh;
+    }
+    .introduction h4{
+        font-size: 3vh;
+    }
+    .introduction p{
+        font-size: 2vw;
+        margin-top: -25px;
+    }
 }
 @media only screen and (max-width: 768px){
-
+    .header h1{
+        font-size: 2.5vh;
+    }
+    .introduction h4{
+        font-size: 2.5vh;
+    }
 }
 @media only screen and (max-width: 576px){
-
+    .header-container{
+        display: inline;
+    }
+    .header h1{
+        font-size: 3vh;
+    }
+    .introduction{
+        width: 70%;
+    }
+    .introduction h4{
+        font-size: 3vh;
+    }
+    .introduction p{
+        font-size: 3vw;
+        margin-top: -20px;
+    }
 }
